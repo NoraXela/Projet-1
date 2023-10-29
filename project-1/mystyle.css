@@ -1,0 +1,349 @@
+/* Comment*/
+
+* {
+  color: #aaa;
+}
+
+body {
+  margin: auto;
+  max-width: 960px;
+  background-color: rgb(63, 36, 76);
+  /*background-color: rgb(255, 173, 90); */
+  font-family: Merriweather, serif;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h4,
+p {
+  font-family: Ubuntu;
+}
+
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* ------===========   HOMEPAGE   ==========-------- */
+.homepage {
+  text-align: center;
+}
+
+h1.homepage {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.img-homepage {
+  display: block;
+  width: 65%;
+  border: 2px;
+  border-style: solid;
+  border-color: #aaa;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+/* ------===========   HEADER AND NAVBAR   ==========-------- */
+
+.header-image {
+  display: block;
+  width: 25%;
+  border: 2px;
+  border-style: solid;
+  border-color: #aaa;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #aaa;
+}
+
+ul.navbar li {
+  float: left;
+  width: 20%;
+}
+
+ul.navbar li a,
+.dropbtn {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li a.navbaract {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 173, 90);
+}
+
+/* ------===========   DROPDOWN   ==========-------- */
+
+ul.navbar li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(63, 36, 76);
+  color: rgb(255, 173, 90);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+li.dropdownact {
+  display: inline-block;
+  background-color: rgb(255, 173, 90);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #aaa;
+  min-width: 160px;
+  width: inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(255, 173, 90);
+}
+
+.dropdown:hover .dropdown-content,
+.dropdownact:hover .dropdown-content {
+  display: block;
+}
+
+/* ------===========   TEAM   ==========-------- */
+
+div.team {
+  margin: auto;
+  border: 2px solid #aaa;
+  width: 360px;
+  margin-bottom: 20 px;
+}
+
+div.team:hover {
+  border: 2px solid rgb(255, 173, 90);
+}
+
+div.team img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: ubuntu, sans-serif;
+}
+
+/* ------===========   MISSION   ==========-------- */
+
+ul.mission {
+  background-color: rgb(255, 173, 90);
+  color: rgb(63, 36, 76);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: circle;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 6px solid #aaa;
+  /*border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;*/
+  width: 500px;
+  box-shadow: 20px;
+}
+
+ul.mission li {
+  color: rgb(63, 36, 76);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* ------===========   ABOUT US   ==========-------- */
+
+h3.about,
+h4.about {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+p.about {
+  font-family: Garamond, "Arial Narrow Bold", sans-serif;
+  text-align: justify;
+  text-indent: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* ------===========   BIZ   ==========-------- */
+
+img.biz {
+  margin: auto;
+  display: block;
+  border: 3px solid #aaa;
+}
+
+img.biz:hover {
+  opacity: 50%;
+  border: 3px solid rgb(255, 173, 90);
+}
+
+/* ------===========   PRICES   ==========-------- */
+
+.prices {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 600px;
+  max-width: 600px;
+}
+
+.prices td,
+.prices th {
+  border: 1px solid #aaa;
+  padding: 8px;
+  color: black;
+}
+
+.prices tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+.prices tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.prices tr:hover {
+  background-color: #aaa;
+}
+
+.prices th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(255, 173, 90);
+}
+
+/* ------===========   SERVICES   ==========-------- */
+
+div.servimg {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.servimg:hover {
+  border: 1px solid rgb(255, 173, 90);
+}
+
+div.servimg img {
+  width: 100%;
+  height: auto;
+}
+
+/* ------===========   GALLERY   ==========-------- */
+
+div.galleryblock {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.gallery {
+  margin: 2px;
+  border: 0px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* ------===========   FORM   ==========-------- */
+
+input[type="text"].form,
+input[type="email"].form,
+select.form {
+  color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+div.form label {
+  color: black;
+}
+
+textarea.form {
+  color: black;
+  width: 100%;
+  height: 100px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+  float: left;
+}
+
+input[type="submit"].form {
+  width: 100%;
+  background-color: rgb(255, 173, 90);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"].form:hover {
+  /*background-color: #45a049;*/
+  background-color: rgb(63, 36, 76);
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
